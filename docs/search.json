@@ -16,8 +16,78 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "About Me",
+    "title": "Rx-CHaR",
     "section": "",
-    "text": "Thanks for checking out my web site!"
+    "text": "The Prescribed Fire and Carbon, Hydrology and Recreation (Rx-CHaR) group examines on the effectiveness of prescribed burning to mitigate wildfire risks on carbon sequestration, water yield and recreation in Colorado and California."
+  },
+  {
+    "objectID": "about.html#project-2",
+    "href": "about.html#project-2",
+    "title": "About",
+    "section": "Project 2",
+    "text": "Project 2"
+  },
+  {
+    "objectID": "about.html#project-3",
+    "href": "about.html#project-3",
+    "title": "About",
+    "section": "Project 3",
+    "text": "Project 3"
+  },
+  {
+    "objectID": "team.html#project-2",
+    "href": "team.html#project-2",
+    "title": "About",
+    "section": "Project 2",
+    "text": "Project 2"
+  },
+  {
+    "objectID": "team.html#project-3",
+    "href": "team.html#project-3",
+    "title": "About",
+    "section": "Project 3",
+    "text": "Project 3"
+  },
+  {
+    "objectID": "index.html#questions",
+    "href": "index.html#questions",
+    "title": "Rx-CHaR",
+    "section": "Questions",
+    "text": "Questions\n\nWhat are the positive and negative effects of prescribed burning on carbon sequestration, recreation, and water yield?\nWhat are the tradeoffs and benefits of prescribed burning across multiple ecosystem services?"
+  },
+  {
+    "objectID": "index.html#outomces",
+    "href": "index.html#outomces",
+    "title": "Rx-Char",
+    "section": "Outomces:",
+    "text": "Outomces:\n\nReview existing data on the effects of prescribed fire on carbon sequestration, recreation, and water yield.\nWork with stakeholders to assess the effectiveness of prescribed burning.\nCreate unified datasets to assess the impact of prescribed fire on ecosystem services.\nUpdate models to include the effects of prescribed and wildland fire.\nDevelop practical guidance for implementing prescribed burns at the state level."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About CHaR-Rx",
+    "section": "",
+    "text": "A key component of adaptive resilience to wildfire is management that incorporates increased prescribed burning: the controlled application of fire to restore the health of fire-dependent ecosystems and reduce hazardous fuel loads.\nDespite increasing interest and funding, key knowledge gaps limit the ability to monitor and evaluate the effectiveness of prescribed burning as a multi-objective conservation and climate adaptation strategy.\nOne such knowledge gap is the lack of information on how prescribed burning impacts ecosystem services (ESs): the contributions of nature to human well-being.\nThe ability of prescribed burns to reduce biophysical ES losses from wildfire (e.g., carbon sequestration, hydrological impacts) are missing from ES modeling tools. The impacts of fire on cultural ES (e.g., spiritual, recreation, subsistence values) are also understudied, as they are often intangible and therefore commonly excluded from assessments.\nEvaluating the impact of prescribed fire on biophysical and cultural ESs can better inform where, for what, and for whom the strategy is effective."
+  },
+  {
+    "objectID": "team.html",
+    "href": "team.html",
+    "title": "Team CHaR-Rx",
+    "section": "",
+    "text": "Anna LoPresti (co-lead) University of Colorado, Boulder. Climate adaptation planning; indicator development for monitoring and evaluation; stakeholder engagement; ecosystem service valuation\nLaura Dee (co-lead) University of Colorado, Boulder. Ecosystem service modeling; impact evaluation; disturbance ecology; social-ecological systems; synthesis science; stakeholder engagement and co-production\nKyle Manley University of California, Irvine. Mapping and valuing ecosystem services in California; cultural ecosystem services\nAlison Lerch Colorado Department of Natural Resources, Wildfire Mitigation Program. State-level wildfire mitigation policy and programming (CO); prescribed fire training exchanges; monitoring and evaluation of prescribed burn projects\nLilli Kaarakka California Polytechnic State University. Evidence-based environmental solutions for carbon management; forest ecosystem function, biogeochemical cycles and disturbance dynamics in forests facing environmental change; silviculture\nIsabella Oleksy University of Wyoming. Aquatic biogeochemistry in mountain ecosystems and data-intensive landscape limnology using both predictive and process-based models; fire impacts to water quality; open data\nCody Evers Portland State University, Wildfire simulation; agent-based modeling; use of GIS technology in public engagement; social network analysis for wildfire risk management\nMorris Johnson USFS Fire and Environmental Research Applications Team, Synthesis and integration of fuels treatment data; model development of prescribed burn effects; financial analysis tool for estimating costs and revenues of fuels treatments\nMiguel Villarreal US Geological Survey, Western Geographic Science Center. Using earth observation systems and spatial analyses to understand how wildfire affect ecosystem services and human communities; remote sensing for tribal resource management\nJamie Peeler, University of Montana. Opportunity hot spots for reducing wildfire carbon loss\nKatherine Siegel NOAA Climate & Global Change Postdoctoral Fellow\nHolly Nowell Tall Timbers. Fire ecology, GIS and spatial analytics"
+  },
+  {
+    "objectID": "index.html#outcomes",
+    "href": "index.html#outcomes",
+    "title": "Rx-CHaR",
+    "section": "Outcomes",
+    "text": "Outcomes\n\nSynthesize research on the effects of prescribed fire on carbon, recreation, and water yield.\nCreate unified data sets to assess the impact of prescribed fire on ecosystem services.\nUpdate models to include the effects of prescribed and wildland fire.\nDevelop practical guidance for implementing prescribed burns at the state level.\nWork with stakeholders to assess the effectiveness of prescribed burning."
+  },
+  {
+    "objectID": "team.html#nceas-morpho",
+    "href": "team.html#nceas-morpho",
+    "title": "Team CHaR-Rx",
+    "section": "NCEAS Morpho",
+    "text": "NCEAS Morpho\nThis project is made possible through the Morpho synthesis initiative at the National Center for Ecological Analysis and Synthesis. Morpho provides a platform for diverse groups to collaborate on big questions in ecological data science. What sets Morpho apart is who participates. Morpho stresses transdisciplinary collaboration, where members span nonprofits, government agencies, academia and more."
   }
 ]

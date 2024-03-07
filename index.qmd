@@ -1,19 +1,26 @@
 ---
-title: "About Me"
-about:
-  id: me
-  template: broadside
-  image: img/profile.png
+title: "Rx-CHaR"
+format: 
+  html:
+    css: styles.css
 ---
 
-:::{#me}
+The **Prescribed Fire and Carbon, Hydrology and Recreation** (Rx-CHaR) group examines on the effectiveness of prescribed burning to mitigate wildfire risks on carbon sequestration, water yield and recreation in Colorado and California.
 
-## Goals
-
-## Education
-
-## Experience
-
+::: parallax
+::: parallax-image
+:::
 :::
 
-Thanks for checking out my web site!
+## Questions
+
+-   What are the positive and negative effects of prescribed burning on carbon sequestration, recreation, and water yield?
+-   What are the tradeoffs and benefits of prescribed burning across multiple ecosystem services?
+
+## Outcomes
+
+-   Synthesize research on the effects of prescribed fire on carbon, recreation, and water yield.
+-   Create unified data sets to assess the impact of prescribed fire on ecosystem services.
+-   Update models to include the effects of prescribed and wildland fire.
+-   Develop practical guidance for implementing prescribed burns at the state level.
+-   Work with stakeholders to assess the effectiveness of prescribed burning.

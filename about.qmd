@@ -1,0 +1,13 @@
+---
+title: "About CHaR-Rx"
+---
+
+A key component of adaptive resilience to wildfire is management that incorporates increased prescribed burning: the controlled application of fire to restore the health of fire-dependent ecosystems and reduce hazardous fuel loads. 
+
+Despite increasing interest and funding, key knowledge gaps limit the ability to monitor and evaluate the effectiveness of prescribed burning as a multi-objective conservation and climate adaptation strategy. 
+
+One such knowledge gap is the lack of information on how prescribed burning impacts ecosystem services (ESs): the contributions of nature to human well-being. 
+
+The ability of prescribed burns to reduce biophysical ES losses from wildfire (e.g., carbon sequestration, hydrological impacts) are missing from ES modeling tools. The impacts of fire on cultural ES (e.g., spiritual, recreation, subsistence values) are also understudied, as they are often intangible and therefore commonly excluded from assessments. 
+
+Evaluating the impact of prescribed fire on biophysical and cultural ESs can better inform where, for what, and for whom the strategy is effective.

@@ -1,0 +1,14 @@
+.parallax {
+  height: 200px; /* Adjust height as needed */
+  overflow-x: hidden;
+  overflow-y: auto; /* Enable scrolling if content exceeds height */
+}
+
+.parallax-image {
+  background-image: url('images/fire_image.webp');
+  height: 100%;
+  background-attachment: fixed; /* This creates the parallax effect */
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

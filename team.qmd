@@ -1,0 +1,21 @@
+---
+title: "Team CHaR-Rx"
+---
+
+- **Anna LoPresti (co-lead)** University of Colorado, Boulder. Climate adaptation planning; indicator development for monitoring and evaluation; stakeholder engagement; ecosystem service valuation
+- **Laura Dee (co-lead)** University of Colorado, Boulder. Ecosystem service modeling; impact evaluation; disturbance ecology; social-ecological systems; synthesis science; stakeholder engagement and co-production 
+- **Kyle Manley** University of California, Irvine. Mapping and valuing ecosystem services in California; cultural ecosystem services
+- **Alison Lerch** Colorado Department of Natural Resources, Wildfire Mitigation Program. State-level wildfire mitigation policy and programming (CO); prescribed fire training exchanges; monitoring and evaluation of prescribed burn projects
+- **Lilli Kaarakka** California Polytechnic State University. Evidence-based environmental solutions for carbon management; forest ecosystem function, biogeochemical cycles and disturbance dynamics in forests facing environmental change; silviculture
+- **Isabella Oleksy** University of Wyoming. Aquatic biogeochemistry in mountain ecosystems and data-intensive landscape limnology using both predictive and process-based models; fire impacts to water quality; open data
+- **Cody Evers** Portland State University, Wildfire simulation; agent-based modeling; use of GIS technology in public engagement; social network analysis for wildfire risk management
+- **Morris Johnson** USFS Fire and Environmental Research Applications Team, Synthesis and integration of fuels treatment data; model development of prescribed burn effects; financial analysis tool for estimating costs and revenues of fuels treatments
+- **Miguel Villarreal** US Geological Survey, Western Geographic Science Center. Using earth observation systems and spatial analyses to understand how wildfire affect ecosystem services and human communities; remote sensing for tribal resource management
+- **Jamie Peeler**, University of Montana. Opportunity hot spots for reducing wildfire carbon loss
+- **Katherine Siegel** NOAA Climate & Global Change Postdoctoral Fellow
+- **Holly Nowell** Tall Timbers. Fire ecology, GIS and spatial analytics
+
+## NCEAS Morpho
+
+This project is made possible through the Morpho synthesis initiative at the National Center for Ecological Analysis and Synthesis. Morpho provides a platform for diverse groups to collaborate on big questions in ecological data science. What sets Morpho apart is who participates. Morpho stresses transdisciplinary collaboration, where members span nonprofits, government agencies, academia and more. 
+

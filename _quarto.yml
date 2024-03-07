@@ -3,20 +3,16 @@ project:
   output-dir: docs
   
 website:
-  title: "MY WEB SITE"
+  title: "Rx-CHaR"
   navbar:
     left:
       - href: index.qmd
         text: Home
-      - projects.qmd
-    tools:
-      - icon: twitter
-        href: https://twitter.com/
-      - icon: github
-        href: https://github.com/YOURUSERNAME/YOURREPO
+      - about.qmd
+      - team.qmd
   page-footer:
-    right: "Built with [Quarto](https://quarto.org/)"
-    left: "&copy; Copyright 2023, YOUR NAME"
+    right: "Morpho Initiative, NCEAS"
+    left: "2024"
 
 format:
   html:
