@@ -5,7 +5,7 @@ format:
     css: styles.css
 ---
 
-The **Prescribed Fire and Carbon, Hydrology and Recreation** (Rx-CHaR) group examines on the effectiveness of prescribed burning to mitigate wildfire risks on carbon sequestration, water yield and recreation in Colorado and California.
+The **Prescribed Fire and Carbon, Hydrology and Recreation** (Rx-CHaR) group examines on the effectiveness of prescribed burning to mitigate wildfire risks on carbon sequestration, water yield and recreation in California and Colorado
 
 ::: parallax
 ::: parallax-image
