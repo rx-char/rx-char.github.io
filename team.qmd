@@ -7,13 +7,15 @@ title: "Team CHaR-Rx"
 - **Kyle Manley** University of California, Irvine. Mapping and valuing ecosystem services in California; cultural ecosystem services
 - **Alison Lerch** Colorado Department of Natural Resources, Wildfire Mitigation Program. State-level wildfire mitigation policy and programming (CO); prescribed fire training exchanges; monitoring and evaluation of prescribed burn projects
 - **Lilli Kaarakka** California Polytechnic State University. Evidence-based environmental solutions for carbon management; forest ecosystem function, biogeochemical cycles and disturbance dynamics in forests facing environmental change; silviculture
-- **Isabella Oleksy** University of Wyoming. Aquatic biogeochemistry in mountain ecosystems and data-intensive landscape limnology using both predictive and process-based models; fire impacts to water quality; open data
+- **Isabella Oleksy** University of Colorado Boulder. Aquatic biogeochemistry in mountain ecosystems and data-intensive landscape limnology using both predictive and process-based models; fire impacts to water quality; open data
 - **Cody Evers** Portland State University, Wildfire simulation; agent-based modeling; use of GIS technology in public engagement; social network analysis for wildfire risk management
 - **Morris Johnson** USFS Fire and Environmental Research Applications Team, Synthesis and integration of fuels treatment data; model development of prescribed burn effects; financial analysis tool for estimating costs and revenues of fuels treatments
 - **Miguel Villarreal** US Geological Survey, Western Geographic Science Center. Using earth observation systems and spatial analyses to understand how wildfire affect ecosystem services and human communities; remote sensing for tribal resource management
 - **Jamie Peeler**, University of Montana. Opportunity hot spots for reducing wildfire carbon loss
-- **Katherine Siegel** NOAA Climate & Global Change Postdoctoral Fellow
+- **Katherine Siegel** University of Colorado Boulder. Interdisciplinary environmental scientist.
 - **Holly Nowell** Tall Timbers. Fire ecology, GIS and spatial analytics
+- **Ash Cale** University of Nevada Reno.
+- **Erin Hanan** University of Nevada Reno.
 
 ## NCEAS Morpho
 
