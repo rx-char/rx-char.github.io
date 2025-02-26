@@ -1,0 +1,81 @@
+---
+title: "Carbon and Fire DAG"
+author: "Laura Dee"
+date: "`r Sys.Date()`"
+output:
+  html_document: default
+---
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Load Packages
+```{r cars}
+library(ggdag)
+require(knitr)
+library(dagitty)
+```
+# General syntax of the ggdag package:
+* We created dagified objects with ggdag::dagify()
+* We plotted our DAGs with ggdag::ggdag()
+* We can also specify the coordinates of our nodes with a coordinate list
+* We can use ggdag and dagitty packages can help us illustrate our paths and adjustment sets to fulfill the backdoor criterion
+
+We will focus on two functions from the dagitty package:
+* dagitty::paths(): Returns a list with two components: paths, which gives the actual paths, and open, which shows whether each path is open (d-connected) or closed (d-separated).
+* dagitty::adjustmentSets(): Lists the sets of covariates that would allow for unbiased estimation of causal effects, assuming that the causal graph is correct.
+
+# Specify the DAG
+
+I assumed here that historical fire regime is affected by several covariates based on Moody et al. (2006) Fire history and climate influences from forests in the Northern Sierra Nevada, USA Fire Ecology: (https://fireecology.springeropen.com/articles/10.4996/fireecology.0201115#:~:text=Fire%20regimes%20(frequency%2C%20extent%2C,sources%20(natural%20and%20anthropogenic):
+
+" Historical Fire regimes (frequency, extent, severity, seasonality, and synergy) in western forests are influenced by a host of factors, including local weather, fuels, vegetation type and condition, topography, and ignition sources (natural and anthropogenic)."
+
+```{r}
+## Specify the DAG
+Carbon_Trt <- dagify(live.carbon ~ Trt + pretrt_structure + insect_mort + land.ownership+  is.wilderness.area + drought_sev + vege_type + slope + aspect + elevation + historical_fire_regime + topography,
+ Trt ~ pretrt_structure + insect_mort + land.ownership+  is.wilderness.area + drought_sev + vege_type + slope + aspect + elevation + historical_fire_regime + topography,
+  historical_fire_regime ~ insect_mort + elevation + vege_type + elevation + drought_sev + topography, 
+ pretrt_structure ~ historical_fire_regime + vege_type + elevation,
+ exposure = "Trt",
+ outcome = "live.carbon",
+labels = c(outcome = "Live Carbon",
+           exposure = "Treatment"))
+
+set.seed(124)
+
+carbondag <- ggdag_status(Carbon_Trt,
+             use_labels = "label",
+             color = "black",
+             text = TRUE,
+             label_alpha = 0.5) + theme_dag() 
+ carbondag +  geom_dag_text(color = "blue")
+```
+## Analyze open back doors (confounding)
+To identify  what must be controlled for, we can use adjustmentSets(). We can also have a summary of all possible paths in the DAG and identify which are open vs closed backdoors using paths(). 
+
+This function takes a DAG, with a given “exposure” or "treatment variable" and an “outcome” and identifies open backdoors: confounding variables (common causes) that need to be controlled for. 
+
+In the output in the below, the '$open' tells us whether each path is open -- i.e. not controlled for but needs to be!  We want the first path [1]  "Trt -> live.carbon" - the causal path of interest - to be open. But the other paths are confounding, so we would need to condition on those covariates (include them in the regression and the matching exercise). We can also see if there are some variables we don't need to condition on, because they are descedents of other variables. We can see that here using the function ggdag_descendants() for each. But it's actually simpler to skip ahead to the next step because ggdag will tell us what we need to adjust for!
+
+```{r, echo = TRUE}
+#identify the open paths that need to be adjusted for 
+# paths(Carbon_Trt)
+#plot the open  paths 
+# ggdag_paths(Carbon_Trt, shadow = TRUE) #Also, do not forget to set the argument shadow = TRUE, so that the arrows from the adjusted nodes are included
+```
+
+```{r, echo = TRUE}
+#identify the covariates need to be adjusted for to meet the back-door criterion
+adjustmentSets(Carbon_Trt)
+
+# Finally, you can also visulaize the variables that need to be adjusted for (which is also told to you by the adjustmentSets() function 
+ggdag_adjustment_set(Carbon_Trt, shadow = TRUE) +  geom_dag_text(color = "blue")
+#Also, do not forget to set the argument shadow = TRUE, so that the arrows from the adjusted nodes are included.
+```
+Those are the following if you agree with that I have said about the relationships among some of the other variables!
+
+{ aspect, drought_sev, elevation, historical_fire_regime, insect_mort,
+  is.wilderness.area, land.ownership, pretrt_structure, slope,
+  topography, vege_type }
+  
