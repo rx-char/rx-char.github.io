@@ -16,6 +16,7 @@ title: "Team CHaR-Rx"
 - **Holly Nowell** Tall Timbers. Fire ecology, GIS and spatial analytics
 - **Ash Cale** University of Nevada Reno.
 - **Erin Hanan** University of Nevada Reno.
+- **Spencer Wood** University of Washington.
 
 ## NCEAS Morpho
 
